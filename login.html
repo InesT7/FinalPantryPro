@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Website Name</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Tailwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Boxicons link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" class="nav-logo">PantryPro</a> 
+      <ul class="menulist">
+          <li><a href="index.html">Home</a></li> 
+          <li><a href="/welcome.html">Welcome</a></li>
+      </ul>
+      <div class="mobile-menu">
+        <a href="/recipes.html" class="primary-button">Recipes</a>
+        <div class="bx bx-menu" id="hamburger"></div>
+      </div>
+    </nav>
+    <main>
+      <!--==================== login  ===================--> 
+      <section class="mt-10 flex flex-col justify-center">
+        <div class="mt-10 text-center self-center pl-5 pr-3 py-3.5 text-4xl ">P</div>
+        <div class="text-center text-3xl font-bold self-center max-w-[328px] mt-7">Welcome back!</div>
+
+      <!-- wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww-->
+      <form id="loginForm" class="self-center flex flex-col items-stretch mt-8 px-7 py-12 rounded-3xl max-md:px-5">
+        <!-- email entry -->
+        <label for="email" class="text-base">Email or phone number</label>
+        <div class="label">
+          <input type="email" id="email" aria-label="Email"/>
+        </div>
+        <!-- password entry -->
+        <label for="password" class="text-white text-base mt-9">Password</label>
+        <div class="label">
+          <input type="password" id="password" aria-label="Password"/>
+        </div>
+      </form>
+
+      <!-- wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww-->
+      <button onclick="login()" class="secondary-button">Login</button>
+      </section>
+    </main>
+    <!-- JS link -->
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+

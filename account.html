@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Website Name</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Tailwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Boxicons link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" class="nav-logo">PantryPro</a>
+      <ul class="menulist">
+        <li><a href="/items.html">Items</a></li>
+        <li><a href="/recipes.html">Recipes</a></li>
+        <li><a href="/account.html" class="active">Account</a></li>
+      </ul>
+      <div class="mobile-menu">
+        <a href="/recipes.html" class="primary-button">Recipes</a>
+        <div class="bx bx-menu" id="hamburger"></div>
+      </div>
+    </nav>
+    <main>
+        <!--========== Saved Recipes ========-->
+      <section class=" mt-10 flex flex-col justify-center relative">
+        <div class="text-center self-center pl-5 pr-3 py-3.5 rounded-[50%] text-4xl">P</div>
+        <div class="text-center text-3xl font-bold self-center w-[328px] mt-4 mb-2">My Recipes</div>
+        <div class="self-center flex justify-between gap-5 mt-4 items-start">
+          <div class="items flex flex-col items-center pt-2.5 pb-9 px-3.5 rounded-2xl max-sm:ml-2.5">
+           
+            <a href="TomatoSaucePastarecipes.html"> 
+            <img src="https://i.postimg.cc/bNFGRRmT/meal4.jpg" class="aspect-[1.2] object-contain object-center w-[135px] overflow-hidden" />
+            <div class="text-white text-sm font-bold self-stretch whitespace-nowrap mt-4"> Tomato Sauce Pasta </div>
+            </a>
+          </div>
+          <div class="items flex flex-col items-center pt-2 pb-9 px-3 rounded-2xl max-sm:ml-0">
+            <a href="TomatoSaucePastarecipes.html"> 
+            <img src="https://i.postimg.cc/kGT2zNq7/meal3.jpg" alt="Plate of Cilantro Lime Salmon" class="aspect-[1.2] object-contain object-center w-[135px] overflow-hidden " />
+            <div class="text-sm font-bold self-stretch whitespace-nowrap mt-5"> Cilantro Lime Salmon </div>
+            </a>
+          </div>
+        </div>
+        <div class="self-center flex justify-between gap-5 mt-4 items-start">
+          <div class="items flex flex-col items-center pt-2.5 pb-9 px-3.5 rounded-2xl max-sm:ml-2.5">
+            <a href="TomatoSaucePastarecipes.html"> 
+            <img src="https://i.postimg.cc/1RBV8S6b/meal1.jpg" alt="Bowl of garden salad" class="aspect-[1.2] object-contain object-center w-[135px] overflow-hidden"/>
+            <div class="text-sm font-bold self-stretch whitespace-nowrap mt-4"> Garden Salad </div>
+            </a>
+          </div>
+          <div class="items flex flex-col items-center pt-2 pb-9 px-3 rounded-2xl max-sm:ml-0">
+            <a href="TomatoSaucePastarecipes.html"> 
+            <img src="https://i.postimg.cc/XqjZs1M2/meal2.jpg"  alt="Bowl of pasta soup" class="aspect-[1.2] object-contain object-center w-[135px] overflow-hidden " />
+            <div class="text-sm font-bold self-stretch whitespace-nowrap mt-5"> Pasta Soup </div>
+            </a>
+          </div>
+        </div>
+        <img
+        src="https://i.postimg.cc/15zn6drX/grocerybag.png"
+        alt="Grocery bag of veggies" class="absolute inset-y-1/2 w-50% h-50% object-cover transform -translate-y-1 z-[-1] " />
+        <a href="recipes.html" class="secondary-button">Create Recipe</a> 
+    </section>
+    </main>
+    <!-- JS link -->
+    <script src="script.js"></script>
+  </body>
+</html>

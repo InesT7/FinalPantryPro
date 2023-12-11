@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Website Name</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Tailwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Boxicons link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" class="nav-logo">PantryPro</a> 
+      <ul class="menulist">
+        <li><a href="/items.html" class="active">Items</a></li>
+        <li><a href="/recipes.html">Recipes</a></li>
+        <li><a href="/account.html">Account</a></li>
+      </ul>
+      <div class="mobile-menu">
+        <a href="/recipes.html" class="primary-button">Recipes</a>
+        <div class="bx bx-menu" id="hamburger"></div>
+      </div>
+    </nav>
+    <main>
+      <!--==================== items ===================--> 
+      <section class="mt-20 flex flex-col mb-20">
+        <div class="mt-5">
+          <div class="text-center text-3xl font-bold self-center mt-10">Fruits & Vegetables</div>
+          <div class="justify-center flex mt-5 mx-6 gap-5">
+            <!-- item -->
+            <div class="items flex flex-col items-center pt-7 pb-3 px-7 rounded-2xl max-w-[400px]">
+              <img src="https://i.postimg.cc/26fLZ80N/Pepper.png"class="aspect-[1.17] object-contain object-center w-28 overflow-hidden max-w-full" />
+              <div class="text-sm font-bold self-stretch whitespace-nowrap mt-6 mb-3">Bell Pepper Red</div>
+              <a href="items.html" class="align-end self-end">
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8462099d3aef15ea4d4208832c8a52450359f3de7904b2d5312856200f4e1540?apiKey=b28cca2a880e4e9e988542604cd88348&"/>
+              </a>
+            </div>
+            <!-- item 2 -->
+            <div class="items flex flex-col items-center pt-7 pb-3 px-7 rounded-2xl max-w-[400px]">
+              <img src="https://i.postimg.cc/YSFm0mfx/spinach.png"class="aspect-[1.17] object-contain object-center w-28 overflow-hidden max-w-full" />
+              <div class="text-sm font-bold self-stretch whitespace-nowrap mt-6 mb-3">Spinach</div>
+              <a href="items.html" class="align-end self-end">
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8462099d3aef15ea4d4208832c8a52450359f3de7904b2d5312856200f4e1540?apiKey=b28cca2a880e4e9e988542604cd88348&"/>
+              </a>
+            </div>
+          </div>
+          <div class="justify-center flex mt-5 mx-6 gap-5">
+            <!-- item 3 -->
+            <div class="items flex flex-col items-center pt-7 pb-3 px-7 rounded-2xl max-w-[400px]">
+              <img src="https://i.postimg.cc/zGby2RM1/lettuce.png"class="aspect-[1.17] object-contain object-center w-28 overflow-hidden max-w-full" />
+              <div class="text-sm font-bold self-stretch mt-6 mb-3">Lettuce</div>
+              <a href="items.html" class="align-end self-end">
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8462099d3aef15ea4d4208832c8a52450359f3de7904b2d5312856200f4e1540?apiKey=b28cca2a880e4e9e988542604cd88348&"/>
+              </a>
+            </div>
+            <!-- item 4 -->
+            <div class="items flex flex-col items-center pt-7 pb-3 px-7 rounded-2xl max-w-[400px]">
+              <img src="https://i.postimg.cc/C1HBHT2B/squash.png"class="aspect-[1.17] object-contain object-center w-28 overflow-hidden max-w-full" />
+              <div class="text-sm font-bold self-stretch mt-6 mb-3">Squash</div>
+              <a href="items.html" class="align-end self-end">
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8462099d3aef15ea4d4208832c8a52450359f3de7904b2d5312856200f4e1540?apiKey=b28cca2a880e4e9e988542604cd88348&"/>
+              </a>
+            </div>
+          </div>
+          <div class="justify-center flex mt-5 mx-6 gap-5">
+            <!-- item 5 -->
+            <div class="items flex flex-col items-center pt-7 pb-3 px-7 rounded-2xl max-w-[400px]">
+              <img src="https://i.postimg.cc/pLpjNSm4/apple.png"class="aspect-[1.17] object-contain object-center w-28 overflow-hidden max-w-full" />
+              <div class="text-sm font-bold self-stretch mt-6 mb-3">Apple</div>
+              <a href="items.html" class="align-end self-end">
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8462099d3aef15ea4d4208832c8a52450359f3de7904b2d5312856200f4e1540?apiKey=b28cca2a880e4e9e988542604cd88348&"/>
+              </a>
+            </div>
+            <!-- item 6 -->
+            <div class="items flex flex-col items-center pt-7 pb-3 px-7 rounded-2xl max-w-[400px]">
+              <img src="https://i.postimg.cc/2SMZCxv6/orange.png"class="aspect-[1.17] object-contain object-center w-28 overflow-hidden max-w-full" />
+              <div class="text-sm font-bold self-stretch mt-6 mb-3">Orange</div>
+              <a href="items.html" class="align-end self-end">
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8462099d3aef15ea4d4208832c8a52450359f3de7904b2d5312856200f4e1540?apiKey=b28cca2a880e4e9e988542604cd88348&"/>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="recipes.html" class="secondary-button">Create recipe</a>
+      </section>
+    </main>
+    <!-- JS link -->
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Website Name</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Tailwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Boxicons link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" class="nav-logo">PantryPro</a> 
+      <ul class="menulist">
+        <li><a href="/items.html">Items</a></li>
+        <li><a href="/recipes.html" class="active">Recipes</a></li>
+        <li><a href="/account.html">Account</a></li>>
+      </ul>
+      <div class="mobile-menu">
+        <a href="/recipes.html" class="primary-button">Recipes</a>
+        <div class="bx bx-menu" id="hamburger"></div>
+      </div>
+    </nav>
+    <main>
+      <!--==================== recipes ===================-->
+      <section class="marginbottom mt-20 flex flex-col mb-20 tracking-wide">
+        <div class="mt-10">
+          <div class="text-center text-3xl font-bold self-center mt-10">Recipe</div>
+          <div class="justify-center self-stretch flex mt-10 pr-8 pl-8 gap-5">
+            <!-- item -->
+            <div class="items justify-center flex flex-col items-center pt-7 pb-3 px-5 rounded-2xl md:max-w-[500px] mx-auto">
+              <img src="https://i.postimg.cc/bNFGRRmT/meal4.jpg" class="aspect-[1.17] object-contain object-center w-[200px] overflow-hidden " />
+              <div class="text-2xl font-bold text-center mt-7 mb-2">Tomato Sauce Pasta</div>
+              <div class="text-lg font-bold self-stretch mt-7 mb-5 ml-1">Ingredients</div>
+              <div class="text-sm break-normal leading-7 mx-4 max-w-[350px]">Tomatoes: About 4-5 medium-sized tomatoes, diced. <br>
+                Onion: 1 medium-sized onion. <br>
+                Cilantro (Coriander). <br>
+                Jalapeño or Chili Pepper: 1-2. <br>
+                Garlic: 2-3 cloves of garlic, minced. <br>
+                Lime Juice: Juice of 1-2 limes. <br>
+                Salt: To taste. <br>
+                Black Pepper: To taste. <br>
+              </div>
+              <div class="text-lg font-bold self-stretch mt-7 mb-5 ml-1">Instructions</div>
+              <div class="text-sm break-normal leading-7 mx-4 mb-5 max-w-[350px]">
+                1. Combine the diced tomatoes, chopped onion, cilantro, jalapeño, and garlic. <br>
+                2. Add lime juice, salt, and black pepper to taste. Adjust the quantities. <br>
+                3. If you're using optional ingredients like cumin or cayenne pepper, add them. <br>
+                4. Mix all the ingredients together well. <br>
+                5. Let the salsa sit for at least 15-30 minutes before serving. <br>
+                6. Taste the salsa and adjust the seasoning. <br>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="savedrecipes.html" class="secondary-button text-center marginbottom" >Save Recipe</a>
+      </section>
+      <div class="text-center mt-30 justify-center self-center" style="
+      display: inline-grid;
+      margin-top: 200px;
+      align-items: center;">
+      </div>
+    </main>
+    <!-- JS link -->
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
